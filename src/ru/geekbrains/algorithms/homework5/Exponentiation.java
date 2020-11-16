@@ -9,8 +9,8 @@ public class Exponentiation {
         System.out.println(exponentiation(6, -8));
     }
 
-    public static double exponentiation(long number, int extent) {
-        return сalculation(number, extent, number);
+    public static double exponentiation(long number, int exponent) {
+        return сalculation(number, exponent, number);
     }
 
     public static double сalculation(long number, int exponent, double result) {
